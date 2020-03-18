@@ -18,19 +18,17 @@ border: none;
       src: url(assets/9622.ttf);
      }
 
+
     .portfolio {
-      max-height: 823px;
-      padding-bottom: 5px;
-      background-color: #555557;
-      border-bottom: 6px solid #323746;
-      margin: auto;
-      height: 615px;
+      background-color: rgb(239,239,239);
+      margin: -27px 0 0 0;
+      height: 550px;
     }
 
-    .portfolio__width {
-      padding-top: 5px;
-      margin-left: auto;
-      margin-right: auto;
+    .portfolio1, .portfolio2, .portfolio3{
+      margin: -27px 0 0 0;
+      height: 550px;
+  background-color: rgb(239,239,239);
     }
 
     .pictures {
@@ -38,29 +36,29 @@ border: none;
       flex-wrap: wrap;
       justify-content: space-between;
       max-height: 615px;
-      margin: 15px 30px 5px 30px;
       overflow: hidden;
     }
 
     .img_pic{
   position: relative;
-    object-fit: cover;
+  width: 400px;
+  height: 400px;
     }
 
     .img_pic1{
   position: relative;
-  width: 330px;
-  height: 330px;
+  width: 320px;
+  height: 320px;
   object-fit: cover;
     }
 
 
     .pictures1, .pictures3{
-margin: 50px 50px;
+margin: 0 65px;
     }
 
     .pictures2{
-margin: 50px 230px;
+margin: 0 230px;
     }
 
     .line p{
@@ -103,42 +101,45 @@ margin: 50px 230px;
 
 
     .title_pic {
-      margin: 10px 0 0 40px;
       font-size: 30px;
       font-weight: 900;
       line-height: 17px;
-      color: rgb(45, 48, 58);
+      color: black;
       font-family: "Lato";
       font-weight: 600;
       text-align: center;
+      padding: 30px 0 0 0;
     }
 
     .text_pic {
-      margin: 27px 0 0 40px;
+      margin: 27px 0 10px 0;
       font-size: 18px;
       font-weight: 300;
       line-height: 30px;
-      color: rgb(45, 48, 58);
+      color: black;
       font-family: "Lato";
       font-weight: 100;
       text-align: center
     }
 
-    .tags {
-      display: flex;
-      margin: 6px;
-      padding: 0 0 0 29px;
-      list-style: none;
-      outline: none;
+    .text_pic1 {
+      margin: 27px 0 27px 0;
+      font-size: 21px;
+      font-weight: 900;
+      line-height: 35px;
+      color: black;
+      font-family: "Lato";
+      text-align: center;
+      padding-top: 30px;
     }
 
     .tags_item {
-      font-size: 12px;
-      margin: 6px;
+      font-size: 20px;
+      margin: 20px;
       font-weight: 400;
       line-height: 1;
-      color: #767e9e;
-      border: 1px solid #767e9e;
+      color: #3a3a3a;
+      border: 1px solid #3a3a3a;
       background: none;
       border-radius: 4px;
       font-family: "Lato";
@@ -147,16 +148,18 @@ margin: 50px 230px;
     }
 
     .tags_active {
-      color: white;
-      border: 1px solid white;
+      color: #ce5151;
+      border: 1px solid #ce5151;
       outline: none;
     }
 
     .tags_item:hover {
-      opacity: 0.5;
-      color: gray;
-      border: 1px solid gray;
+      color: #ce5151;
+      border: 1px solid #ce5151;
       outline: none;
+      -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
     }
 
     h2#testimonials {
@@ -176,8 +179,8 @@ margin: 50px 230px;
 
 .view .mask,
 .view .content {
-  width: 220px;
-  height: 220px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -187,7 +190,6 @@ margin: 50px 230px;
 .view img {
   display: block;
   position: relative;
-    object-fit: cover;
 }
 
 .view h2 {
@@ -195,7 +197,7 @@ margin: 50px 230px;
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 30px;
   font-family: Raleway, serif;
   padding: 10px;
   /*background: rgba(0, 0, 0, 0.8);*/
@@ -205,7 +207,7 @@ margin: 50px 230px;
 .view p {
   font-family: Merriweather, serif;
   font-style: italic;
-  font-size: 14px;
+  font-size: 25px;
   position: relative;
   color: #fff;
   padding: 0px 20px 0px;
@@ -215,10 +217,8 @@ margin: 50px 230px;
 .view-first img {
   /*1*/
   transition: all 0.2s linear;
-  width: 220px;
-  height: 220px;
-background-size: cover;
-  object-fit: cover;
+  width: 400px;
+  height: 400px;
 }
 
 .view-first .mask {
@@ -264,7 +264,7 @@ background-size: cover;
    }
 
    footer p{
-     top: 28px;
+     top: 38px;
      position: relative;
      margin-left: 40px;
      color: white;
@@ -277,14 +277,20 @@ background-size: cover;
       bottom: 15px;
       position: relative;
       left: 85%;
-      height: 40px;
-      width: 40px;
       opacity: 0.5;
       justify-content: space-between;
       margin-left: 15px;
-        object-fit: cover;
       }
 
-      .img:hover{
-      opacity: 1;
-      }
+      .head {
+           background: white;
+           height: 60px;
+           width: 100%;
+           margin: -20px 0 0 0;
+         }
+
+         .tags{
+             display: flex;
+             list-style: none;
+             outline: none;
+         }
