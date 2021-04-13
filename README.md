@@ -1,2 +1,2 @@
 # VDISP
-Ссылка на сайт - daryadan-vdisp.netlify.app
+Ссылка на сайт - https://daryadan-vdisp.netlify.app/
